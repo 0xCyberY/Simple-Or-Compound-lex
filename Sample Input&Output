@@ -1,0 +1,18 @@
+$ editor SimpleOrComp.l
+$ lex SimpleOrComp.l
+$ cc lex.yy.c -ll
+$ ./a.out
+Enter the string:
+ali and ahmed
+//press ctrl+D
+The string is compound
+$ ./a.out
+Enter the string:
+sun or moon
+//press ctrl+D
+The string is compound
+$ ./a.out
+Enter the string:
+he OR she
+//press ctrl+D
+The string is compound
